@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Sesiones</title>
+</head>
+<body>
+
+	<form action="/Sesiones/anyadir">
+		
+		Atributo<br>
+		<input type="text" name="atributo"><br><br>
+		Valor<br>
+		<input type="text name="valor"><br><br>
+		<input type="submit" value="Añadir">
+	</form>
+	
+	<form action="/Sesiones/invalidar">
+	
+		<input type="submit" value="Invalidar">
+	
+	</form>
+	
+</body>
+</html>
